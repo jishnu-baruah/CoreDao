@@ -1,0 +1,17 @@
+{
+  "name": "advanced-dao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "type": "module", // Add this line
+  "devDependencies": {
+    "hardhat": "^2.10.0",
+    "@nomiclabs/hardhat-ethers": "^3.0.0",
+    "ethers": "^5.0.0",
+    "chai": "^4.3.4",
+    "@openzeppelin/contracts": "^4.3.0"
+  }
+}
